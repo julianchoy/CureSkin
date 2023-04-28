@@ -26,3 +26,19 @@ class Page:
     def wait_for_element_click(self, *locator):
         e = self.wait.until(EC.element_to_be_clickable(locator), message=f'Element not clickable by {locator}')
         e.click()
+
+    def input_text(self, text, *locator):
+        e = self.driver.find_element(*locator)
+        e.clear()
+        e.send_keys(text)
+
+    def find_element(self, *locator):
+        return self.driver.find_element(*locator)
+
+    def find_elements(self, *locator):
+        return self.driver.find_elements(*locator)
+
+    def verify_text(self, expected_text, *locator):
+        actual_text = self.driver.find_element(*locator).text
+        assert expected_text == actual_text, \
+            f'Checking by locator {locator}. Expected {expected_text}, but got {actual_text}'
