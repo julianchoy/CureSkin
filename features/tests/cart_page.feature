@@ -1,5 +1,5 @@
 # Created by julian.choy at 4/25/23
-Feature: Product Page
+Feature: Cart Page
 
   Scenario: User can add product to cart
     Given Open CureSkin Shop Page
