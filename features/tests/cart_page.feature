@@ -12,3 +12,14 @@ Feature: Cart Page
     And Click on View Cart
     Then Verify same item is present in cart
     And Verify price is same as shown in results
+
+  Scenario: Update Cart Functionality
+    Given Open CureSkin Shop Page
+    When Close popup
+    And Click header search button
+    And Input text SPF
+    And Click search input button
+    And Add first item
+    And Click on View Cart
+    And Click on Remove button
+    Then Verify cart is empty

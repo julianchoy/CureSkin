@@ -14,3 +14,13 @@ def verify_item(context):
 @then('Verify price is same as shown in results')
 def verify_price(context):
     context.app.cart_page.verify_price()
+
+
+@when('Click on Remove button')
+def click_remove_btn(context):
+    context.app.cart_page.click_remove_btn()
+
+
+@then('Verify cart is empty')
+def verify_cart_empty(context):
+    context.app.cart_page.verify_cart_empty()
