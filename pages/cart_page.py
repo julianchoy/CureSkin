@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 from pages.base_page import Page
-from time import sleep
 
 
 class CartPage(Page):
@@ -23,4 +22,3 @@ class CartPage(Page):
 
     def verify_cart_empty(self):
         self.wait_for_element_appear(*self.VERIFY_CART_EMPTY)
-        sleep(10)
