@@ -24,6 +24,7 @@ def browser_init(context):
     # context.driver = webdriver.Safari()
     # # Enable for Safari
 
+    # Enable for headless
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     options.add_argument("--window-size=1920,1080")
@@ -33,6 +34,7 @@ def browser_init(context):
         chrome_options=options,
         service=Service('/Users/julian.choy/PycharmProjects/Careerist/CureSkin/chromedriver')
     )
+    # Enable for headless
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(5)

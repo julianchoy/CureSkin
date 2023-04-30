@@ -4,14 +4,14 @@ Feature: Main Page
   Scenario: User can shop by product Face Washes
     Given Open CureSkin Shop Page
     When Close popup
-    When Click on Shop by Product in header shop categories
+    And Click on Shop by Product in header shop categories
     And Click on Face Washes in side menu
     Then Verify Face Wash page is shown
 
   Scenario: User can shop by product Sunscreens
     Given Open CureSkin Shop Page
     When Close popup
-    When Click on Shop by Product in header shop categories
+    And Click on Shop by Product in header shop categories
     And Click on Sunscreens in side menu
     Then Verify the first product in Sunscreen page
 
