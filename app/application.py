@@ -6,6 +6,7 @@ from pages.header import Header
 from pages.side_menu import ProductMenu
 from pages.search_results_page import SearchResultsPage
 from pages.sunscreen_page import SunscreenPage
+from pages.facewash_page import FaceWashPage
 
 
 class Application:
@@ -20,3 +21,4 @@ class Application:
         self.side_menu = ProductMenu(self.driver)
         self.search_results_page = SearchResultsPage(self.driver)
         self.sunscreen_page = SunscreenPage(self.driver)
+        self.facewash_page = FaceWashPage(self.driver)

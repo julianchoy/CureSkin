@@ -4,7 +4,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 
 class SearchResultsPage(Page):
-    SEARCH_RESULT_ADD_TO_CART_BTN = (By.CSS_SELECTOR, '.card-information__button')
+    SEARCH_RESULT_ADD_TO_CART_BTN = (By.CSS_SELECTOR, "add-to-cart")
     INPUT_SEARCH_BTN = (By.XPATH, "//button[contains(text(),' Search for')]")
     ITEM_NAME = (By.CSS_SELECTOR, ".card-information a")
     ITEM_PRICE = (By.CSS_SELECTOR, ".price-item--sale bdi")
@@ -16,8 +16,8 @@ class SearchResultsPage(Page):
         search_results = self.find_element(*self.SEARCH_RESULT_ADD_TO_CART_BTN)
         actions = ActionChains(self.driver)
         actions.move_to_element(search_results)
-        actions.click()
         actions.perform()
+        self.wait_for_element_click(*self.SEARCH_RESULT_ADD_TO_CART_BTN)
 
     def click_input_search_btn(self):
         self.wait_for_element_click(*self.INPUT_SEARCH_BTN)

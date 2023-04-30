@@ -11,4 +11,4 @@ Feature: Cart Page
     And Add first item
     And Click on View Cart
     Then Verify same item is present in cart
-    Then Verify price is same as shown in results
+    And Verify price is same as shown in results

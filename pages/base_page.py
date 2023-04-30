@@ -6,7 +6,7 @@ class Page:
 
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(self.driver, 15)
+        self.wait = WebDriverWait(self.driver, 10)
 
     def open_url(self, url):
         self.driver.get(url)
@@ -42,3 +42,6 @@ class Page:
         actual_text = self.driver.find_element(*locator).text
         assert expected_text == actual_text, \
             f'Checking by locator {locator}. Expected {expected_text}, but got {actual_text}'
+
+    def wait_for_element_disappear(self, *locator):
+        self.wait.until(EC.invisibility_of_element(locator))

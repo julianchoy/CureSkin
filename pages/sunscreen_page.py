@@ -7,3 +7,6 @@ class SunscreenPage(Page):
 
     def verify_first_prod_visible(self):
         self.wait_for_element_appear(*self.FIRST_PROD_VISIBLE).is_displayed()
+
+    def verify_page_opened(self):
+        self.verify_url_contains_query("https://shop.cureskin.com/collections/sun-protection")

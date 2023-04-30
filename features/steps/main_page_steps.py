@@ -4,6 +4,7 @@ from behave import given, when, then
 @given('Open CureSkin Shop Page')
 def open_cureskin(context):
     context.app.main_page.open_main_url()
+    context.app.main_page.dummy_chat_loaded()
 
 
 @given('Open search results page for cure')

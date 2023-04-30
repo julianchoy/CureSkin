@@ -13,6 +13,7 @@ def click_header_logo(context):
 
 @when('Click header search button')
 def click_search_button(context):
+    context.app.header.search_btn_visible()
     context.app.header.click_header_search_btn()
 
 
