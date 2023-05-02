@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from pages.base_page import Page
+from support.logger import logger
 
 
 class MainPage(Page):
@@ -9,6 +10,7 @@ class MainPage(Page):
     POPUP_OVERLAY = (By.CSS_SELECTOR, ".is-active")
 
     def open_main_url(self):
+        logger.info('Opening url https://shop.cureskin.com/')
         self.open_url("https://shop.cureskin.com/")
 
     def open_cure_search(self):
@@ -21,6 +23,7 @@ class MainPage(Page):
         self.verify_url_contains_query("https://shop.cureskin.com/")
 
     def close_popup(self):
+        logger.info('Closing popup')
         self.wait_for_element_appear(*self.POPUP_CLOSE_BTN)
         self.wait_for_element_click(*self.POPUP_CLOSE_BTN)
         self.wait_for_element_disappear(*self.POPUP_OVERLAY)

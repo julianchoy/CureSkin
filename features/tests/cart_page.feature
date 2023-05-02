@@ -1,7 +1,7 @@
 # Created by julian.choy at 4/25/23
 Feature: Cart Page
 
-  Scenario: User can add product to cart
+  Scenario: Verify item and price in cart are correct
     Given Open CureSkin Shop Page
     When Close popup
     And Click header search button

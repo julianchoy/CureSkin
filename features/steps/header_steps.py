@@ -1,8 +1,10 @@
 from behave import given, when, then
+from support.logger import logger
 
 
 @when('Click on {shop_category} in header shop categories')
 def click_header_shop_category(context, shop_category):
+    logger.info(f'Inputting text {shop_category}')
     context.app.header.click_header_shop_category(shop_category)
 
 
