@@ -1,0 +1,696 @@
+2023-05-02 18:19:30,500 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 18:19:32,134 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:19:32,134 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:19:33,378 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:19:33,378 - support.logger - INFO - Closing popup
+2023-05-02 18:19:43,653 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 18:19:43,708 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 18:19:43,790 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 18:19:45,091 - support.logger - INFO - Started step: <when "Store first item info">
+2023-05-02 18:19:45,147 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 18:19:45,450 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 18:19:47,081 - support.logger - INFO - Started step: <then "Verify same item is present in cart">
+2023-05-02 18:19:47,124 - support.logger - INFO - Started step: <then "Verify price is same as shown in results">
+2023-05-02 18:19:47,220 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 18:19:48,845 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:19:48,845 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:19:49,830 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:19:49,830 - support.logger - INFO - Closing popup
+2023-05-02 18:20:00,084 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 18:20:00,148 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 18:20:00,229 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 18:20:01,187 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 18:20:01,513 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 18:20:02,627 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 18:20:02,679 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 18:20:02,776 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 18:20:04,381 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:20:04,382 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:20:05,390 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:20:05,390 - support.logger - INFO - Closing popup
+2023-05-02 18:20:15,683 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 18:20:15,683 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 18:20:15,746 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 18:20:16,881 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 18:20:16,995 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 18:20:18,613 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:20:18,613 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:20:19,609 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:20:19,609 - support.logger - INFO - Closing popup
+2023-05-02 18:20:29,867 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 18:20:29,867 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 18:20:29,931 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 18:20:31,079 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 18:20:31,195 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 18:20:32,820 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 18:20:34,134 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 18:20:34,590 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 18:20:34,691 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 18:20:36,306 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:20:36,306 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:20:37,658 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:20:37,658 - support.logger - INFO - Closing popup
+2023-05-02 18:20:47,422 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 18:20:48,186 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 18:20:48,253 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 18:20:48,258 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 18:20:49,778 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">
+2023-05-02 18:22:33,535 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 18:22:35,227 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:22:35,227 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:22:36,604 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:22:36,604 - support.logger - INFO - Closing popup
+2023-05-02 18:22:48,959 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 18:22:48,959 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 18:22:49,018 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 18:22:50,233 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 18:22:50,344 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 18:22:51,986 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:22:51,987 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:22:52,977 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:22:52,977 - support.logger - INFO - Closing popup
+2023-05-02 18:23:03,209 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 18:23:03,210 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 18:23:03,270 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 18:23:04,407 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 18:23:04,524 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 18:23:06,158 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 18:23:07,445 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 18:23:07,898 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 18:24:02,317 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 18:24:04,003 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:24:04,003 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:24:04,998 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:24:04,998 - support.logger - INFO - Closing popup
+2023-05-02 18:24:15,263 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 18:24:16,099 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 18:24:16,166 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 18:24:16,170 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 18:24:17,625 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">
+2023-05-02 18:31:52,749 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 18:31:54,426 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:31:54,426 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:31:56,208 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:31:56,208 - support.logger - INFO - Closing popup
+2023-05-02 18:32:01,556 - support.logger - ERROR - Step failed: <when "Close popup">
+2023-05-02 18:32:52,971 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 18:32:54,685 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:32:54,685 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:32:55,726 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:32:55,726 - support.logger - INFO - Closing popup
+2023-05-02 18:33:07,563 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 18:33:07,617 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 18:33:07,699 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 18:33:09,711 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 18:33:15,144 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 18:33:30,817 - support.logger - ERROR - Step failed: <when "Click on View Cart">
+2023-05-02 18:33:30,908 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 18:33:32,622 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:33:32,622 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:33:33,628 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:33:33,628 - support.logger - INFO - Closing popup
+2023-05-02 18:33:46,010 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 18:33:46,010 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 18:33:46,072 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 18:33:47,317 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 18:33:47,460 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 18:33:49,110 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 18:33:50,345 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 18:33:50,679 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 18:43:38,705 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 18:43:40,429 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:43:40,429 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:43:41,894 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:43:41,894 - support.logger - INFO - Closing popup
+2023-05-02 18:43:52,113 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 18:43:52,183 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 18:43:52,255 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 18:43:54,040 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 18:43:54,418 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 18:43:55,881 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 18:43:55,935 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 18:43:56,028 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 18:43:57,420 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 18:43:57,420 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 18:43:58,371 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 18:43:58,371 - support.logger - INFO - Closing popup
+2023-05-02 18:44:08,663 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 18:44:08,664 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 18:44:08,720 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 18:44:09,993 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 18:44:10,118 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 18:44:11,727 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 18:44:13,022 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 18:44:13,512 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 19:45:38,112 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 19:45:40,084 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 19:45:41,914 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 19:45:43,806 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 19:45:45,702 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 19:45:47,604 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:34:40,155 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:34:42,252 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:34:44,156 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:34:46,080 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:34:47,981 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:34:49,905 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:35:28,873 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:35:30,077 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:35:30,081 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:35:30,150 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:35:31,269 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:35:31,271 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:35:31,334 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:35:32,468 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:35:32,472 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:35:32,540 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:35:33,670 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:35:33,673 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:35:33,737 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:35:34,888 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 22:35:34,893 - support.logger - ERROR - Step failed: <given "Open search results page for cure">
+2023-05-02 22:35:34,954 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:35:36,084 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:35:36,088 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:12,648 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:36:13,890 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:13,892 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:13,967 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:36:15,107 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:15,110 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:15,179 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:36:16,305 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:16,309 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:16,372 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:36:17,540 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:17,541 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:17,606 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:36:18,737 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 22:36:18,743 - support.logger - ERROR - Step failed: <given "Open search results page for cure">
+2023-05-02 22:36:18,807 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:36:19,968 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:36:19,971 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:38,137 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:40:39,356 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:39,360 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:39,426 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:40:40,590 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:40,591 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:40,662 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:40:41,804 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:41,807 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:41,868 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:40:43,023 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:43,026 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:43,093 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:40:44,241 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 22:40:44,245 - support.logger - ERROR - Step failed: <given "Open search results page for cure">
+2023-05-02 22:40:44,315 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:40:45,516 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:40:45,517 - support.logger - ERROR - Step failed: <given "Open CureSkin Shop Page">
+2023-05-02 22:41:44,431 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:41:46,084 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:41:46,084 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:41:51,667 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:41:51,667 - support.logger - INFO - Closing popup
+2023-05-02 22:41:57,742 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 22:41:57,799 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 22:41:57,884 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 22:41:59,272 - support.logger - INFO - Started step: <when "Store first item info">
+2023-05-02 22:41:59,323 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 22:41:59,636 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:42:01,151 - support.logger - INFO - Started step: <then "Verify same item is present in cart">
+2023-05-02 22:42:01,190 - support.logger - INFO - Started step: <then "Verify price is same as shown in results">
+2023-05-02 22:42:01,285 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:42:02,890 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:42:02,890 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:42:03,905 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:42:03,905 - support.logger - INFO - Closing popup
+2023-05-02 22:42:14,185 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 22:42:14,239 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 22:42:14,323 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 22:42:15,194 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 22:42:15,526 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:42:16,632 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 22:42:16,687 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 22:42:16,777 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:42:18,396 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:42:18,396 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:42:19,456 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:42:19,456 - support.logger - INFO - Closing popup
+2023-05-02 22:42:29,731 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 22:42:29,731 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 22:42:29,789 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 22:42:31,154 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 22:42:31,261 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:42:32,875 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:42:32,875 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:42:34,006 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:42:34,006 - support.logger - INFO - Closing popup
+2023-05-02 22:42:44,258 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 22:42:44,259 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 22:42:44,319 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 22:42:45,493 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 22:42:45,611 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:42:47,228 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 22:42:48,483 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 22:42:48,946 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 22:42:49,045 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:42:50,664 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:42:50,664 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:42:51,675 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:42:51,675 - support.logger - INFO - Closing popup
+2023-05-02 22:43:01,924 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 22:43:02,713 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 22:43:02,789 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 22:43:02,794 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:43:04,320 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">
+2023-05-02 22:45:03,418 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:45:03,419 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:45:03,419 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:45:03,419 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:45:03,419 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:45:03,419 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:45:16,204 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:45:16,204 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:45:16,205 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:45:16,205 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:45:16,205 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:45:16,205 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:45:47,143 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:45:47,144 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:45:47,144 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:45:47,145 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:45:47,145 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:45:47,145 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:46:17,853 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:46:19,522 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:46:19,523 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:46:20,919 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:46:20,920 - support.logger - INFO - Closing popup
+2023-05-02 22:46:31,188 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 22:46:31,242 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 22:46:31,324 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 22:46:33,046 - support.logger - INFO - Started step: <when "Store first item info">
+2023-05-02 22:46:33,103 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 22:46:33,412 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:46:34,750 - support.logger - INFO - Started step: <then "Verify same item is present in cart">
+2023-05-02 22:46:34,781 - support.logger - INFO - Started step: <then "Verify price is same as shown in results">
+2023-05-02 22:46:34,878 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:46:36,484 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:46:36,484 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:46:37,447 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:46:37,447 - support.logger - INFO - Closing popup
+2023-05-02 22:46:47,723 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 22:46:47,780 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 22:46:47,859 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 22:46:49,213 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 22:46:49,561 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:46:50,750 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 22:46:50,806 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 22:46:50,893 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:46:52,525 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:46:52,525 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:46:53,533 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:46:53,533 - support.logger - INFO - Closing popup
+2023-05-02 22:47:03,814 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 22:47:03,814 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 22:47:03,870 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 22:47:05,115 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 22:47:05,228 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:47:06,884 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:47:06,884 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:47:07,833 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:47:07,833 - support.logger - INFO - Closing popup
+2023-05-02 22:47:18,088 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 22:47:18,089 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 22:47:18,148 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 22:47:19,328 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 22:47:19,452 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:47:21,073 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 22:47:22,313 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 22:47:22,749 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 22:47:22,850 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:47:24,457 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:47:24,457 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:47:25,383 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:47:25,383 - support.logger - INFO - Closing popup
+2023-05-02 22:47:35,666 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 22:47:36,497 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 22:47:36,550 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 22:47:36,555 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:47:37,930 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">
+2023-05-02 22:48:13,193 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:48:13,193 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:48:13,194 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:48:13,194 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:48:13,194 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:48:13,194 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:48:23,226 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:48:23,227 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:48:23,227 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:48:23,228 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:48:23,228 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:48:23,229 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:48:35,998 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:48:37,709 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:48:37,709 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:48:38,843 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:48:38,843 - support.logger - INFO - Closing popup
+2023-05-02 22:48:49,100 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 22:48:49,154 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 22:48:49,234 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 22:48:51,062 - support.logger - INFO - Started step: <when "Store first item info">
+2023-05-02 22:48:51,112 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 22:48:51,428 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:48:52,632 - support.logger - INFO - Started step: <then "Verify same item is present in cart">
+2023-05-02 22:48:52,661 - support.logger - INFO - Started step: <then "Verify price is same as shown in results">
+2023-05-02 22:48:52,759 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:48:54,398 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:48:54,398 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:48:55,439 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:48:55,439 - support.logger - INFO - Closing popup
+2023-05-02 22:49:05,669 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 22:49:05,724 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 22:49:05,801 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 22:49:07,082 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 22:49:07,425 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:49:08,587 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 22:49:08,636 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 22:49:08,722 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:49:10,320 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:49:10,320 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:49:11,282 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:49:11,283 - support.logger - INFO - Closing popup
+2023-05-02 22:49:21,549 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 22:49:21,549 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 22:49:21,610 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 22:49:22,609 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 22:49:22,719 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:49:24,327 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:49:24,327 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:49:25,366 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:49:25,366 - support.logger - INFO - Closing popup
+2023-05-02 22:49:35,648 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 22:49:35,648 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 22:49:35,710 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 22:49:36,697 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 22:49:36,815 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:49:38,418 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 22:49:39,789 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 22:49:40,272 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 22:49:40,378 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:49:42,004 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:49:42,004 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:49:42,997 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:49:42,998 - support.logger - INFO - Closing popup
+2023-05-02 22:49:53,272 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 22:49:53,886 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 22:49:53,948 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 22:49:53,952 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:49:55,104 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">
+2023-05-02 22:50:27,199 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 22:50:28,814 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:50:28,814 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:50:30,085 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:50:30,085 - support.logger - INFO - Closing popup
+2023-05-02 22:50:39,810 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 22:50:39,863 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 22:50:39,942 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 22:50:41,667 - support.logger - INFO - Started step: <when "Store first item info">
+2023-05-02 22:50:41,720 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 22:50:42,029 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:50:43,213 - support.logger - INFO - Started step: <then "Verify same item is present in cart">
+2023-05-02 22:50:43,259 - support.logger - INFO - Started step: <then "Verify price is same as shown in results">
+2023-05-02 22:50:43,354 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 22:50:44,966 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:50:44,966 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:50:45,947 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:50:45,947 - support.logger - INFO - Closing popup
+2023-05-02 22:50:56,220 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 22:50:56,280 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 22:50:56,357 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 22:50:57,730 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 22:50:58,060 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:50:59,308 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 22:50:59,369 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 22:50:59,456 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 22:51:01,070 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:51:01,070 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:51:02,092 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:51:02,092 - support.logger - INFO - Closing popup
+2023-05-02 22:51:12,350 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 22:51:12,350 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 22:51:12,410 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 22:51:13,377 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 22:51:13,498 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 22:51:15,094 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:51:15,094 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:51:16,159 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:51:16,160 - support.logger - INFO - Closing popup
+2023-05-02 22:51:26,449 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 22:51:26,450 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 22:51:26,511 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 22:51:27,649 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 22:51:27,772 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 22:51:29,399 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 22:51:30,615 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 22:51:31,119 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 22:51:31,219 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 22:51:32,856 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 22:51:32,856 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 22:51:33,834 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 22:51:33,834 - support.logger - INFO - Closing popup
+2023-05-02 22:51:44,107 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 22:51:44,724 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 22:51:44,789 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 22:51:44,793 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 22:51:45,929 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">
+2023-05-02 23:23:49,223 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 23:23:50,943 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:23:50,943 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:23:52,507 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:23:52,507 - support.logger - INFO - Closing popup
+2023-05-02 23:24:02,247 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 23:24:02,300 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 23:24:02,384 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 23:24:03,708 - support.logger - INFO - Started step: <when "Store first item info">
+2023-05-02 23:24:03,762 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 23:24:04,052 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:24:05,462 - support.logger - INFO - Started step: <then "Verify same item is present in cart">
+2023-05-02 23:24:05,507 - support.logger - INFO - Started step: <then "Verify price is same as shown in results">
+2023-05-02 23:24:05,600 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 23:24:07,208 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:24:07,208 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:24:08,197 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:24:08,197 - support.logger - INFO - Closing popup
+2023-05-02 23:24:18,467 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 23:24:18,519 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 23:24:18,601 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 23:24:19,996 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 23:24:20,320 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:24:21,426 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 23:24:21,472 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 23:24:21,560 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 23:24:23,179 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:24:23,179 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:24:24,135 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:24:24,135 - support.logger - INFO - Closing popup
+2023-05-02 23:24:34,402 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 23:24:34,402 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 23:24:34,461 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 23:24:35,652 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 23:24:35,763 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 23:24:37,384 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:24:37,385 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:24:38,342 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:24:38,342 - support.logger - INFO - Closing popup
+2023-05-02 23:24:48,605 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 23:24:48,605 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 23:24:48,660 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 23:24:49,948 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 23:24:50,066 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 23:24:51,687 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 23:24:52,925 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 23:24:53,393 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 23:24:53,499 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 23:24:55,126 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:24:55,126 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:24:56,055 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:24:56,055 - support.logger - INFO - Closing popup
+2023-05-02 23:25:06,314 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 23:25:07,493 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 23:25:07,547 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 23:25:07,552 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:25:08,987 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">
+2023-05-02 23:25:51,644 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 23:25:53,325 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:25:53,325 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:25:54,575 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:25:54,575 - support.logger - INFO - Closing popup
+2023-05-02 23:26:04,848 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 23:26:04,902 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 23:26:04,984 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 23:26:06,576 - support.logger - INFO - Started step: <when "Store first item info">
+2023-05-02 23:26:06,622 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 23:26:06,965 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:26:08,586 - support.logger - INFO - Started step: <then "Verify same item is present in cart">
+2023-05-02 23:26:08,625 - support.logger - INFO - Started step: <then "Verify price is same as shown in results">
+2023-05-02 23:26:08,715 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 23:26:10,354 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:26:10,354 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:26:11,331 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:26:11,331 - support.logger - INFO - Closing popup
+2023-05-02 23:26:21,618 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 23:26:21,673 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 23:26:21,757 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 23:26:23,195 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 23:26:23,547 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:26:24,652 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 23:26:24,709 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 23:26:24,799 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 23:26:26,390 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:26:26,390 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:26:27,323 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:26:27,324 - support.logger - INFO - Closing popup
+2023-05-02 23:26:37,588 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 23:26:37,588 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 23:26:37,649 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 23:26:38,925 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 23:26:39,037 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 23:26:40,657 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:26:40,657 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:26:41,639 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:26:41,639 - support.logger - INFO - Closing popup
+2023-05-02 23:26:51,910 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 23:26:51,910 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 23:26:51,972 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 23:26:53,126 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 23:26:53,240 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 23:26:54,860 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 23:26:56,215 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 23:26:56,554 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 23:26:56,652 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 23:26:58,268 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:26:58,268 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:26:59,320 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:26:59,320 - support.logger - INFO - Closing popup
+2023-05-02 23:27:09,571 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 23:27:10,282 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 23:27:10,347 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 23:27:10,351 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:27:11,588 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">
+2023-05-02 23:27:50,715 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 23:27:51,708 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:27:51,708 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:27:52,701 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:27:52,701 - support.logger - INFO - Closing popup
+2023-05-02 23:28:02,916 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 23:28:02,955 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 23:28:03,033 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 23:28:04,652 - support.logger - INFO - Started step: <when "Store first item info">
+2023-05-02 23:28:04,694 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 23:28:05,005 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:28:06,137 - support.logger - INFO - Started step: <then "Verify same item is present in cart">
+2023-05-02 23:28:06,160 - support.logger - INFO - Started step: <then "Verify price is same as shown in results">
+2023-05-02 23:28:06,250 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 23:28:07,213 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:28:07,213 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:28:08,171 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:28:08,171 - support.logger - INFO - Closing popup
+2023-05-02 23:28:18,346 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 23:28:18,385 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 23:28:18,462 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 23:28:19,775 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 23:28:20,109 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:28:21,162 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 23:28:21,202 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 23:28:21,284 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 23:28:22,242 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:28:22,243 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:28:23,144 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:28:23,144 - support.logger - INFO - Closing popup
+2023-05-02 23:28:33,329 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 23:28:33,329 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 23:28:33,377 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 23:28:34,294 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 23:28:34,384 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 23:28:35,345 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:28:35,345 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:28:36,316 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:28:36,316 - support.logger - INFO - Closing popup
+2023-05-02 23:28:46,493 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 23:28:46,494 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 23:28:46,538 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 23:28:47,297 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 23:28:47,401 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 23:28:48,359 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 23:28:49,583 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 23:28:50,061 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 23:28:50,144 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 23:28:51,104 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:28:51,104 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:28:52,015 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:28:52,015 - support.logger - INFO - Closing popup
+2023-05-02 23:29:02,225 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 23:29:02,786 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 23:29:02,839 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 23:29:02,844 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:29:03,863 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">
+2023-05-02 23:29:28,202 - support.logger - INFO - Started scenario: Verify item and price in cart are correct
+2023-05-02 23:29:29,175 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:29:29,175 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:29:30,120 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:29:30,120 - support.logger - INFO - Closing popup
+2023-05-02 23:29:40,297 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 23:29:40,333 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 23:29:40,408 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 23:29:42,066 - support.logger - INFO - Started step: <when "Store first item info">
+2023-05-02 23:29:42,105 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 23:29:42,428 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:29:43,487 - support.logger - INFO - Started step: <then "Verify same item is present in cart">
+2023-05-02 23:29:43,511 - support.logger - INFO - Started step: <then "Verify price is same as shown in results">
+2023-05-02 23:29:43,602 - support.logger - INFO - Started scenario: Update Cart Functionality
+2023-05-02 23:29:44,569 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:29:44,569 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:29:45,446 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:29:45,446 - support.logger - INFO - Closing popup
+2023-05-02 23:29:55,642 - support.logger - INFO - Started step: <when "Click header search button">
+2023-05-02 23:29:55,681 - support.logger - INFO - Started step: <when "Input text SPF">
+2023-05-02 23:29:55,753 - support.logger - INFO - Started step: <when "Click search input button">
+2023-05-02 23:29:57,055 - support.logger - INFO - Started step: <when "Add first item">
+2023-05-02 23:29:57,362 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:29:58,419 - support.logger - INFO - Started step: <when "Click on Remove button">
+2023-05-02 23:29:58,464 - support.logger - INFO - Started step: <then "Verify cart is empty">
+2023-05-02 23:29:58,544 - support.logger - INFO - Started scenario: User can shop by product Face Washes
+2023-05-02 23:29:59,508 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:29:59,509 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:30:00,461 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:30:00,461 - support.logger - INFO - Closing popup
+2023-05-02 23:30:10,652 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 23:30:10,652 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 23:30:10,693 - support.logger - INFO - Started step: <when "Click on Face Washes in side menu">
+2023-05-02 23:30:11,591 - support.logger - INFO - Started step: <then "Verify Face Wash page is shown">
+2023-05-02 23:30:11,679 - support.logger - INFO - Started scenario: User can shop by product Sunscreens
+2023-05-02 23:30:12,648 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:30:12,648 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:30:13,562 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:30:13,562 - support.logger - INFO - Closing popup
+2023-05-02 23:30:23,747 - support.logger - INFO - Started step: <when "Click on Shop by Product in header shop categories">
+2023-05-02 23:30:23,748 - support.logger - INFO - Inputting text Shop by Product
+2023-05-02 23:30:23,790 - support.logger - INFO - Started step: <when "Click on Sunscreens in side menu">
+2023-05-02 23:30:24,711 - support.logger - INFO - Started step: <then "Verify the first product in Sunscreen page">
+2023-05-02 23:30:24,808 - support.logger - INFO - Started scenario: Top logo takes user to main page
+2023-05-02 23:30:25,762 - support.logger - INFO - Started step: <given "Open search results page for cure">
+2023-05-02 23:30:27,017 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-05-02 23:30:27,515 - support.logger - INFO - Started step: <then "Verify user is taken to main page">
+2023-05-02 23:30:27,604 - support.logger - INFO - Started scenario: User can add product to cart
+2023-05-02 23:30:28,564 - support.logger - INFO - Started step: <given "Open CureSkin Shop Page">
+2023-05-02 23:30:28,565 - support.logger - INFO - Opening url https://shop.cureskin.com/
+2023-05-02 23:30:30,057 - support.logger - INFO - Started step: <when "Close popup">
+2023-05-02 23:30:30,057 - support.logger - INFO - Closing popup
+2023-05-02 23:30:39,763 - support.logger - INFO - Started step: <when "Click on first product">
+2023-05-02 23:30:40,296 - support.logger - INFO - Started step: <when "Click on Add to Cart">
+2023-05-02 23:30:40,354 - support.logger - INFO - Started step: <then "Verify Cart pop up visible">
+2023-05-02 23:30:40,359 - support.logger - INFO - Started step: <when "Click on View Cart">
+2023-05-02 23:30:41,390 - support.logger - INFO - Started step: <then "Verify Cart Page is opened">

@@ -1,14 +1,16 @@
-import allure
-from allure_commons.types import AttachmentType
+# import allure
+# from allure_commons.types import AttachmentType
 from app.application import Application
 
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support.events import EventFiringWebDriver
 from selenium.webdriver.chrome.service import Service
 # from selenium.webdriver.firefox.service import Service
 
 from support.logger import logger, MyListener
+
+# Allure command:
+# behave -f allure_behave.formatter:AllureFormatter -o test_results/ features/tests/product_page.feature
 
 
 def browser_init(context, test_cureskin):
@@ -31,31 +33,32 @@ def browser_init(context, test_cureskin):
     # # Enable for Safari
 
     # # Enable for headless
-    # options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')
-    # options.add_argument("--window-size=1920,1080")
-    # options.add_argument("--start-maximized")
-    #
-    # context.driver = webdriver.Chrome(
-    #     chrome_options=options,
-    #     service=Service('/Users/julian.choy/PycharmProjects/Careerist/CureSkin/chromedriver')
-    # )
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--start-maximized")
+
+    context.driver = webdriver.Chrome(
+        chrome_options=options,
+        service=Service('/Users/julian.choy/PycharmProjects/Careerist/CureSkin/chromedriver')
+    )
     # # Enable for headless
 
     # # Enable for browserstack
-    bs_user = 'julianchoy_s5WALm'
-    bs_key = 'Ewaivx5jeJ5fivLVNzZn'
-
-    desired_cap = {
-        'browserName': 'Chrome',
-        'bstack:options': {
-            'os': 'Windows',
-            'osVersion': '10',
-            'sessionName': test_cureskin
-        }
-    }
-    url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
-    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+    # bs_user = 'julianchoy_s5WALm'
+    # bs_key = 'Ewaivx5jeJ5fivLVNzZn'
+    #
+    # desired_cap = {
+    #     'browserName': 'Chrome',
+    #     'bstack:options': {
+    #         'os': 'Windows',
+    #         'osVersion': '10',
+    #         'sessionName': test_cureskin
+    #     }
+    # }
+    # url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
+    # context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+    # # Enable for browserstack
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(5)
