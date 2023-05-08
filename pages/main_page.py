@@ -24,7 +24,6 @@ class MainPage(Page):
 
     def close_popup(self):
         logger.info('Closing popup')
-        self.wait_for_element_appear(*self.POPUP_CLOSE_BTN)
         self.wait_for_element_click(*self.POPUP_CLOSE_BTN)
         self.wait_for_element_disappear(*self.POPUP_OVERLAY)
 

@@ -32,3 +32,4 @@ def store_first_item_info(context):
 @when('Input text {user_text}')
 def user_text_input(context, user_text):
     context.app.header.user_text_input(user_text)
+

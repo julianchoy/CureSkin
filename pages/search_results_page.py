@@ -8,6 +8,7 @@ class SearchResultsPage(Page):
     INPUT_SEARCH_BTN = (By.XPATH, "//button[contains(text(),' Search for')]")
     ITEM_NAME = (By.CSS_SELECTOR, ".card-information a")
     ITEM_PRICE = (By.CSS_SELECTOR, ".price-item--sale bdi")
+    MOBILE_SEARCH_BTN = (By.XPATH, ".header__search")[1]
 
     def verify_facewash_opened(self, verify_pageopened):
         self.verify_url_contains_query(verify_pageopened)

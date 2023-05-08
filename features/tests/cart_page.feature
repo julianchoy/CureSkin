@@ -3,8 +3,8 @@ Feature: Cart Page
 
   Scenario: Verify item and price in cart are correct
     Given Open CureSkin Shop Page
-    When Close popup
-    And Click header search button
+#    When Close popup
+    When Click header search button
     And Input text SPF
     And Click search input button
     And Store first item info
